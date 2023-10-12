@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 2rem;
+}
+a {
+  text-decoration: none;
+  border: solid rgb(255, 119, 0);
+  border-radius: 4px;
+  padding: 2px;
+}
+a:hover {
+  background-color: rgb(255, 119, 0);
+}
+
+h1 {
+  color: rgb(255, 119, 0);
+  display: flex;
+  font-size: 1rem;
+  margin: 3rem 0 0 0;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image img {
+  width: 32%;
+  padding-left: 1rem;
+}
